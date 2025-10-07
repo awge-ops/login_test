@@ -1,16 +1,23 @@
-# Playwright login test
+# Playwright Login Test (Portfolio)
 
 ## Локальный запуск
 
 1. Установить зависимости:
-
 ```bash
 python -m pip install -r requirements.txt
+```
 
+2. Установить браузеры Playwright:
+```bash
 python -m playwright install
+```
 
-export BASE_URL="https://your-site.com"
-export TEST_USER="user@example.com"
-export TEST_PASS="Password123"
-
+3. Запустить все тесты:
+```bash
 pytest -q
+```
+
+4. Запуск конкретного теста:
+```bash
+pytest -q tests/test_login.py::test_login_saucedemo
+```
