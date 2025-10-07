@@ -1,4 +1,4 @@
-# Playwright login test (portfolio)
+# Playwright login test
 
 ## Локальный запуск
 
